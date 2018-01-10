@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------|
    * |Shift   |  Z|  X|  C|  V|  B|  N|  M|  ,|  .|  /|  Shift   |
    * |-----------------------------------------------------------|
-   * |Ctrl|Gui |Alt |      Space            |Alt |Gui |FN  |Ctrl |
+   * |Ctrl|Gui |Alt |      Space            |Fns |RGB |FN  |Ctrl |
    * `-----------------------------------------------------------'
    */
 [_BL] = KEYMAP_ANSI(
