@@ -52,7 +52,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_TRNS, KC_TRNS, KC_APP,  KC_TRNS, KC_TRNS, KC_TRNS, KC_VOLD, KC_VOLU,  KC_MUTE, KC_END,  KC_PGDN,                   KC_UP, \
   KC_TRNS, KC_TRNS, KC_TRNS,                            KC_TRNS,                             KC_TRNS, KC_LEFT, KC_DOWN, KC_RGHT),
 
-  /* Keymap _RL: Function Layer
+  /* Keymap _RL: RGB Layer
    * ,-----------------------------------------------------------.
    * |   |   |   |   |   |   |   |   |   |   |   |   |   |  RESET|
    * |-----------------------------------------------------------|
@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |-----------------------------------------------------------|
    * |      |   |   |   |   |   |   |       |   |   |   |        |
    * |-----------------------------------------------------------|
-   * |        | F1|F2 | F3|F4 | F5| F6| F7| F8|   |   |          |
+   * |        |TGL|MOD|HUI|HUB|SAI|SAD|VAI|VAD|   |   |          |
    * |-----------------------------------------------------------|
    * |    |    |    |                        |    |    |    |    |
    * `-----------------------------------------------------------'
